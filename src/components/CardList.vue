@@ -12,7 +12,7 @@
                 <div class="flex rounded-xl m-auto">
                     <div class="flex flex-wrap gap-8 justify-center w-full rounded-xl h-62 p-2 md:p-2 ">
                         <Card class="cursor-pointer flex flex-col gap-2" v-for="i in 722 " :key="i"
-                            :image-src="'../public/imgs/' + i + '.jpg'" />
+                            :image-src="'https://raw.githubusercontent.com/ThiagoRazor/YugiohFM-consult/main/public/imgs/' + i + '.jpg'" />
                     </div>
                 </div>
             </div>
